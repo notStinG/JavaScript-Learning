@@ -21,3 +21,43 @@ let g = Math.random()
 let h = Math.round(818292.18829191)
 
 console.log(a, b, c, d, e, f, g, h)
+
+let fname = "Adin";
+let lname = "Tate";
+let name = fname + " " + lname;
+let lenname = name.length;
+
+console.log(name + lenname);
+
+let lang = "javascript";
+
+console.log(language[0]);
+console.log(language.substring(3,6));
+console.log(language.toUpperCase());
+
+let age = 18;
+
+if (age < 18) {
+    console.log("Tryna strike a chord and its probably a _____");
+}
+else if (age == 18) {
+    console.log("Happy Legal");
+}
+else r
+
+let drinks = ["Milo", "Bandung", "Teh", "Kopi"];
+
+for (let i = 0; i < drinks.length: i++) {
+    console.log(fruits[i]);
+}
+
+for (let drink of drinks) {
+    console.log(drink);
+}
+
+counter = 10
+while (counter > 0) {
+    console.log(counter);
+    counter--;
+}
+console.log("Submission deadline passed")
