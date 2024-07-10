@@ -65,7 +65,7 @@ console.log("Submission deadline passed")
 
 let num1 = 0;
 let num2 = 1;
-let rep = 10;
+let rep = prompt("How many number would you like in the sequence?")
 if (rep == 1) {
     console.log(num1)
 }
