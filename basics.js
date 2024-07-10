@@ -61,29 +61,3 @@ while (counter > 0) {
     counter--;
 }
 console.log("Submission deadline passed")
-
-
-let num1 = 0;
-let num2 = 1;
-let rep = prompt("How many number would you like in the sequence?")
-if (rep == 1) {
-    console.log(num1)
-}
-else if (rep == 2) {
-    console.log(num1)
-    console.log(num2)
-}
-else {
-    let fib = [num1, num2];
-}
-
-while (rep > fib.length) {
-    let buffer = num1 + num2;
-    num1 = num2;
-    num2 = buffer;
-    fib.push(num2);
-}
-
-for (let num of fib) {
-    console.log(num);
-}
